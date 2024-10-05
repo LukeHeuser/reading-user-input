@@ -45,7 +45,7 @@ public class Main {
                 age = checkData(currentYear, scanner.nextLine()); // calling nextLine method on our object scanner
                 validDOB = age < 0 ? false : true;                // as an expression
             } catch (NumberFormatException badUserData){
-                System.out.println("Characters are not allowed! Try again :)LukeLL");
+                System.out.println("Characters are not allowed! Try again :)");
             }
 
         } while(!validDOB);
